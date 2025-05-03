@@ -1,12 +1,14 @@
 <template>
   <div>
     <FixedHeader/>
+    <MainBody/>
     <RouterView/>
   </div>
 </template>
 
 <script>
 import FixedHeader from './components/Header.vue'
+import MainBody from './components/MainBody.vue'
 import { RouterView } from "vue-router";
 export default {
   setup () {
