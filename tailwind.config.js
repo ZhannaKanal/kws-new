@@ -7,10 +7,12 @@ export default {
         "white": "#fff",
         "black": "#000",
       },
-      screens: {
-        sm: "640px",      
-        sm: "768px",      
-      },
+    },
+    screens: {
+      sm: '640px',   // Small devices (phones)
+      md: '768px',   // Medium devices (tablets)
+      lg: '1024px',  // Large devices (desktops)
+      xl: '1280px',  // Extra large
     },
   },
   plugins: [],
