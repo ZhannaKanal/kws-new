@@ -20,12 +20,12 @@
           </div>
         </div>
         <div class="max-w-[1100px] w-full mx-auto flex justify-between py-[16px]">
-          <a href="" class="text-[white] text-[16px] font-light outline-none">About</a>
-          <a href="" class="text-[white] text-[16px] font-light">About</a>
-          <a href="" class="text-[white] text-[16px] font-light">About</a>
-          <a href="" class="text-[white] text-[16px] font-light">About</a>
-          <a href="" class="text-[white] text-[16px] font-light">About</a>
-          <a href="" class="text-[white] text-[16px] font-light">About</a>
+          <a href="" class="no-underline text-[white] text-[16px] font-light outline-none">About</a>
+          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
+          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
+          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
+          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
+          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
         </div>
       </div>
       <p
