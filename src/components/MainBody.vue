@@ -182,7 +182,7 @@
       >
         <img src="/src/assets/images/i_10.png" draggable="false" alt="" />
         <div class="flex justify-between items-center gap-[48px] py-[16px] mx-auto">
-          <img class="mx-auto" src="/src/assets/images/brut.png" draggable="false" alt="" />
+          <img class="mx-auto" src="/src/assets/images/Brut.png" draggable="false" alt="" />
           <p class="max-w-[420px]">
             BRUT - это проект крупнейшей дистрибьюторской компании Kazakhstan Wines & Spirits.
           </p>
