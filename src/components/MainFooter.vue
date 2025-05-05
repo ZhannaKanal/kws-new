@@ -1,5 +1,5 @@
 <template>
-      <footer class="relative top-[100vh] bg-[#222222] text-[16px]">
+      <footer class="relative top-[0] bg-[#222222] text-[16px]">
     <div class="flex justify-center py-[50px]">
       <img src="/src/assets/images/logo.png" draggable="false" alt="" />
     </div>

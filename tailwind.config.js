@@ -7,6 +7,9 @@ export default {
         "white": "#fff",
         "black": "#000",
       },
+      fontWeight: {
+        250: '250', // custom weight
+      }
     },
     screens: {
       sm: '640px',   // Small devices (phones)

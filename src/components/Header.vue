@@ -19,17 +19,25 @@
             <img class="" src="" alt="" />
           </div>
         </div>
-        <div class="max-w-[1100px] w-full mx-auto flex justify-between py-[16px]">
-          <a href="" class="no-underline text-[white] text-[16px] font-light outline-none">About</a>
-          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
-          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
-          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
-          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
-          <a href="" class="no-underline text-[white] text-[16px] font-light">About</a>
+        <div class="max-w-[900px] w-full mx-auto flex justify-between py-[16px]">
+          <a href="/onas" class="no-underline text-[white] hover:text-[#7F7F7F] text-[16px] font-light">О НАС</a>
+          <a href="" class="no-underline text-[white] hover:text-[#7F7F7F] text-[16px] font-light">УСЛУГИ</a>
+          <a href="" class="no-underline text-[white] hover:text-[#7F7F7F] text-[16px] font-light">БРЕНДЫ</a>
+          <a href="" class="no-underline text-[white] hover:text-[#7F7F7F] text-[16px] font-light">СОБЫТИЯ</a>
+          <a href="" class="no-underline text-[white] hover:text-[#7F7F7F] text-[16px] font-light">КОНТАКТЫ</a>
+          <div class="flex mt-[-16px] gap-[6px] items-center hover:text-[#7F7F7F]">
+            <p class="text-[white]">RU</p>
+            <img
+              class=""
+              src="/src/assets/icons/i_1.png"
+              draggable="false"
+              alt=""
+            />
+          </div>
         </div>
       </div>
       <p
-        class="w-full my-[230px] flex justify-center px-12 text-center text-[24px] font-light text-[white]"
+        class="w-full my-[250px] flex justify-center px-12 text-center text-[24px] font-light text-[white] leading-[40px]"
       >
         - Компания Kazakhstan Wines & Spirits - <br />
         ведущий импортер премиальных вин и спиртных <br />
