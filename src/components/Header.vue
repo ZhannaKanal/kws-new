@@ -26,7 +26,7 @@
           <a href="" class="no-underline text-[white] hover:text-[#7F7F7F] text-[16px] font-light">СОБЫТИЯ</a>
           <a href="" class="no-underline text-[white] hover:text-[#7F7F7F] text-[16px] font-light">КОНТАКТЫ</a>
           <div class="flex mt-[-16px] gap-[6px] items-center hover:text-[#7F7F7F]">
-            <p class="text-[white]">RU</p>
+            <p class="text-[white] hover:text-[#7F7F7F]">RU</p>
             <img
               class=""
               src="/src/assets/icons/i_1.png"
