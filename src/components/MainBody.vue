@@ -112,7 +112,7 @@
         class="event max-w-[1300px] w-full mx-auto my-[32px] px-[24px] flex gap-[78px] lg:gap-[100px] items-center"
       >
         <p class="text-[30px] font-light">СОБЫТИЯ</p>
-        <div class="flex-[1_1_auto] bg-[white] min-h-[64px] h-full flex gap-[28px]">
+        <div class="blocks flex-[1_1_auto] bg-[white] min-h-[64px] h-full flex gap-[28px]">
           <div class="w-[27px] bg-[#CCAD7B]"></div>
           <div class="w-[54px] bg-[#CCAD7B]"></div>
           <div class="w-[68px] bg-[#CCAD7B]"></div>
@@ -244,24 +244,23 @@ export default {}
   .first .second {
     margin-top: -270px;
   }
-  .brands{
+  .brands {
     justify-content: start;
   }
   .brand_block {
-    display:none;
+    display: none;
   }
-  .about_company{
+  .about_company {
     align-items: start;
   }
-  .about_company p{
+  .about_company p {
     text-align: left;
   }
-  .about_company_btn{
+  .about_company_btn {
     justify-content: start;
   }
   .second {
     grid-template-columns: 1fr;
-
   }
   .second > div:first-child {
     order: 2;
@@ -270,24 +269,40 @@ export default {}
   .second > div:last-child {
     order: 1;
   }
-  .philo{
+  .philo {
     flex-direction: column;
   }
-  .philo .first{
+  .philo .first {
     margin-top: 850px;
     margin-bottom: 220px;
   }
-  .philo .first .img{
+  .philo .first .img {
     margin-top: -1101px;
   }
-  .philo .second{
+  .philo .second {
     top: 0;
   }
-  .philo button{
+  .philo button {
     display: none;
   }
-  .wine_culture{
+  .wine_culture {
     align-items: start;
+  }
+}
+@media (max-width: 1280px) {
+  .event{
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: flex-start;
+  }
+  .event p {
+    order: 2;
+    font-size: 30px;
+    margin-top: -50px;
+  }
+  .event .blocks {
+    order: 1;
+    width: 100%;
   }
 }
 </style>
