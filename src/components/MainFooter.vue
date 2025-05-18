@@ -1,5 +1,5 @@
 <template>
-  <link href="/dist/output.css" rel="stylesheet" />
+  <link href="../src/assets/tailwind.css" rel="stylesheet" />
 
   <footer class="relative top-[0] bg-[#222222] text-[16px]">
     <div class="flex justify-center py-[50px]">
@@ -79,11 +79,11 @@ export default {
     grid-row: span 2;
   }
 }
-@media (min-width: 1025px) and (max-width: 1400px){
-  .container{
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .container {
     padding: 0 50px;
   }
-  .last{
+  .last {
     padding: 30px 50px;
   }
 }

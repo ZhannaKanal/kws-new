@@ -1,5 +1,5 @@
 <template>
-  <link href="/dist/output.css" rel="stylesheet" />
+  <link href="../src/assets/tailwind.css" rel="stylesheet" />
 
   <div class="relative">
     <img
