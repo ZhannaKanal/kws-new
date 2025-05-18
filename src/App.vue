@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import FixedHeader from './components/Header.vue'
+import FixedHeader from './components/ChangedHeader.vue'
 import MainBody from './components/MainBody.vue'
 import { RouterView } from "vue-router";
 export default {

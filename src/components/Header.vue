@@ -37,7 +37,7 @@
         </div>
       </div>
       <p
-        class="w-full my-[250px] flex justify-center px-12 text-center text-[24px] font-light text-[white] leading-[40px]"
+        class="w-full mt-[200px] flex justify-center px-12 text-center text-[24px] font-light text-[white] leading-[40px]"
       >
         - Компания Kazakhstan Wines & Spirits - <br />
         ведущий импортер премиальных вин и спиртных <br />
