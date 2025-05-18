@@ -1,4 +1,6 @@
 <template>
+  <link href="/dist/output.css" rel="stylesheet" />
+
   <div class="flex flex-col min-h-[100vh]">
     <div class="flex-[1_1_auto] mt-[-35px]">
       <div class="grid grid-cols-2 gap-[50px]">
@@ -178,22 +180,22 @@
         </div>
       </div>
       <div
-        class="relative top-[0] max-w-[1300px] w-full max-h-[80px] h-full my-[80px] mx-auto px-[24px] flex justify-between bg-[#C49955] text-[16px] text-[#FFFFFF]"
+        class="brut relative top-[0] max-w-[1300px] w-full lg:max-h-[80px] h-full my-[80px] mx-auto px-[24px] flex justify-between bg-[#C49955] text-[16px] text-[#FFFFFF]"
       >
-        <img src="/src/assets/images/i_10.png" draggable="false" alt="" />
-        <div class="flex justify-between items-center gap-[48px] py-[16px] mx-auto">
-          <img class="mx-auto" src="/src/assets/images/Brut.png" draggable="false" alt="" />
-          <p class="max-w-[420px]">
+        <img class="b_img" src="/src/assets/images/i_10.png" draggable="false" alt="" />
+        <div class="block lg:flex  justify-between items-center gap-[48px] py-[16px] mx-auto">
+          <img class="b_brut mx-auto" src="/src/assets/images/Brut.png" draggable="false" alt="" />
+          <p class="max-w-[420px] w-full">
             BRUT - это проект крупнейшей дистрибьюторской компании Kazakhstan Wines & Spirits.
           </p>
           <button
-            class="w-full max-w-[320px] px-[100px] py-[15px] border-[1px] border-solid border-[#FFFFFF] rounded-[2px] text-[white] font-light bg-[#C49955] hover:bg-[white] hover:text-[#C49955] duration-200"
+            class="b_btn w-full max-w-[320px]  px-[100px] py-[15px] border-[1px] border-solid border-[#FFFFFF] rounded-[2px] text-[white] font-light bg-[#C49955] hover:bg-[white] hover:text-[#C49955] duration-200"
             type="button"
           >
             Перейти
           </button>
         </div>
-        <img src="/src/assets/images/i_10.png" draggable="false" alt="" />
+        <img class="b_img" src="/src/assets/images/i_10.png" draggable="false" alt="" />
       </div>
     </div>
   </div>
@@ -203,4 +205,25 @@
 export default {}
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+@media (max-width:1280px){
+    .b_img{
+    display: none;
+  }
+}
+@media (max-width:1024px){
+  .brut{
+    margin-right: 20px;
+    background: #C49955;
+    width: 100%;
+    justify-items: center;
+  }
+  .brut p{
+    padding: 15px 0;
+    max-width: 300px;
+  }
+  .b_brut{
+    padding: 15px 0;
+  }
+}
+</style>
