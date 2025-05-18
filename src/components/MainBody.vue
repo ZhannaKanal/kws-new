@@ -1,4 +1,4 @@
-<template>
+<template>max-h-max w-[calc(100%-100px)]
   <link href="/dist/output.css" rel="stylesheet" />
 
   <div class="flex flex-col min-h-[100vh]">
@@ -32,7 +32,7 @@
         </div>
         <div class="second relative flex-[1_1_auto] mt-[120px]">
           <div
-            class="absolute flex flex-col max-h-max w-[calc(100%-100px)] left-[100px] top-[220px] gap-[20px]"
+            class="blocks absolute flex flex-col max-h-max w-[calc(100%-1px)]  left-[100px] top-[220px] gap-[20px]"
           >
             <div class="h-[16px] bg-[#CCAD7B]"></div>
             <div class="h-[32px] bg-[#CCAD7B]"></div>
@@ -120,6 +120,7 @@
           <div class="flex-[1_1_auto] bg-[#CCAD7B]"></div>
         </div>
       </div>
+
       <div
         class="third max-w-[1300px] w-full my-[25px] mx-auto px-[24px] grid grid-cols-2 gap-[32px]"
       >
@@ -136,8 +137,8 @@
             <p>Dom Perignon x Lady Gaga</p>
           </div>
         </div>
-        <div class="flex-[1_1_auto] flex justify-between">
-          <div class="flex-[1_1_auto] max-w-[274px] w-full ml-[37px]">
+        <div class="two_element flex-[1_1_auto] flex justify-between">
+          <div class="riedel flex-[1_1_auto] max-w-[274px] w-full ml-[37px]">
             <img src="/src/assets/images/i_6.png" draggable="false" alt="" />
             <div class="flex gap-[16px] items-center">
               <div class="min-h-[30px] w-[8px] bg-[#CCAD7B]"></div>
@@ -147,7 +148,7 @@
               </p>
             </div>
           </div>
-          <div class="flex-[1_1_auto] max-w-[274px] mt-[60px] w-full">
+          <div class="kava flex-[1_1_auto] max-w-[274px] mt-[60px] w-full">
             <img src="/src/assets/images/i_7.png" draggable="false" alt="" />
             <div class="flex gap-[16px] items-center py-[20]">
               <div class="min-h-[30px] w-[8px] bg-[#CCAD7B]"></div>
@@ -160,8 +161,9 @@
           </div>
         </div>
       </div>
+
       <div class="fourth relative max-w-[1300px] w-full mx-auto my-10 px-6 grid grid-cols-2 gap-8">
-        <div>
+        <div class="asia">
           <img src="/src/assets/images/i_8.png" draggable="false" alt="" />
           <div class="flex gap-[16px] items-center py-5">
             <div
@@ -175,7 +177,7 @@
           </div>
         </div>
         <div class="relative right-6 bottom-[0px]">
-          <div class="absolute right-[0] bottom-[0px]">
+          <div class="here absolute right-[0] bottom-[0px]">
             <img src="/src/assets/images/i_9.png" draggable="false" alt="" />
             <div class="flex gap-[16px] items-center py-5">
               <div
@@ -190,6 +192,7 @@
           </div>
         </div>
       </div>
+
       <div
         class="brut relative top-[0] max-w-[1300px] w-full lg:max-h-[80px] h-full my-[80px] mx-auto px-[24px] flex justify-between bg-[#C49955] text-[16px] text-[#FFFFFF]"
       >
@@ -244,6 +247,9 @@ export default {}
   .first .second {
     margin-top: -270px;
   }
+  .first .second .blocks{
+    left: 0;
+  }
   .brands {
     justify-content: start;
   }
@@ -290,7 +296,7 @@ export default {}
   }
 }
 @media (max-width: 1280px) {
-  .event{
+  .event {
     flex-direction: column;
     margin-top: 50px;
     align-items: flex-start;
@@ -303,6 +309,39 @@ export default {}
   .event .blocks {
     order: 1;
     width: 100%;
+  }
+}
+@media (max-width: 1280px) {
+  .third {
+    grid-template-columns: 1fr;
+  }
+  .two_element {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .two_element .riedel,
+  .two_element .kava {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .two_element .riedel img,
+  .two_element .kava img {
+    width: 100%;
+  }
+  .riedel{
+    margin-left: 0;
+  }
+  .fourth {
+    grid-template-columns: 1fr;
+  }
+  .asia {
+    margin-bottom: 950px;
+  }
+  .here {
+    bottom: 0;
+    left: 50px;
   }
 }
 </style>
