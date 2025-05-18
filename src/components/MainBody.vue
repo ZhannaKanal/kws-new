@@ -21,7 +21,7 @@
             >
               Ознакомиться
             </button>
-            <div class="flex gap-[16px] max-h-[64px] h-full bg-[white]">
+            <div class="brand_block flex gap-[16px] max-h-[64px] h-full bg-[white]">
               <div class="w-[16px] bg-[#CCAD7B]"></div>
               <div class="w-[32px] bg-[#CCAD7B]"></div>
               <div class="w-[40px] bg-[#CCAD7B]"></div>
@@ -242,10 +242,13 @@ export default {}
     grid-template-columns: 1fr;
   }
   .first .second {
-    margin-top: -120px;
+    margin-top: -270px;
   }
   .brands{
     justify-content: start;
+  }
+  .brand_block {
+    display:none;
   }
   .about_company{
     align-items: start;
