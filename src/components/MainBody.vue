@@ -1,5 +1,5 @@
-<template>
-  <link href="../src/assets/tailwind.css" rel="stylesheet" />
+<template>max-h-max w-[calc(100%-100px)]
+  <link href="/dist/output.css" rel="stylesheet" />
 
   <div class="flex flex-col min-h-[100vh]">
     <div class="flex-[1_1_auto]">
@@ -32,7 +32,7 @@
         </div>
         <div class="second relative flex-[1_1_auto] mt-[120px]">
           <div
-            class="blocks absolute flex flex-col max-h-max w-[calc(100%-1px)] left-[100px] top-[220px] gap-[20px]"
+            class="blocks absolute flex flex-col max-h-max w-[calc(100%-1px)]  left-[100px] top-[220px] gap-[20px]"
           >
             <div class="h-[16px] bg-[#CCAD7B]"></div>
             <div class="h-[32px] bg-[#CCAD7B]"></div>
@@ -247,7 +247,7 @@ export default {}
   .first .second {
     margin-top: -270px;
   }
-  .first .second .blocks {
+  .first .second .blocks{
     left: 0;
   }
   .brands {
@@ -330,7 +330,7 @@ export default {}
   .two_element .kava img {
     width: 100%;
   }
-  .riedel {
+  .riedel{
     margin-left: 0;
   }
   .fourth {
