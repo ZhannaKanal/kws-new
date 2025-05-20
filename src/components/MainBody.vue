@@ -1,4 +1,4 @@
-<template>max-h-max w-[calc(100%-100px)]
+<template>
   <link href="/dist/output.css" rel="stylesheet" />
 
   <div class="flex flex-col min-h-[100vh]">

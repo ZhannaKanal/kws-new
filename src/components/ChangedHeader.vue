@@ -49,9 +49,9 @@
 
         <div
           v-if="isMenuOpen"
-          class="fixed top-0 left-0 w-full h-screen flex flex-col items-start justify-start z-50"
+          class="fixed top-0 left-0 w-full h-screen flex flex-col items-start justify-start z-50 "
         >
-          <div class="hover:bg-[#222222] w-2/3 flex flex-col items-center justify-center">
+          <div class="bg-[#222222] w-2/3 flex flex-col items-center justify-center transition-colors duration-300'">
             <div class="max-w-[250px] w-full mx-auto items-start">
               <div class="py-[20px] flex justify-between">
                 <a href="/onas" @click="closeMenu" class="hover:text-[#7F7F7F]">О НАС</a>
