@@ -9,7 +9,13 @@
       alt=""
     />
     <div class="relative z-15">
-      <header class="fixed top-0 left-0 w-full z-50 hover:bg-[#222222] text-white uppercase">
+      <header
+        :class="[
+          'fixed top-0 left-0 w-full z-50 text-white uppercase transition-colors duration-300',
+          isScrolled ? 'bg-[#222222]' : '',
+          !isMenuOpen ? 'hover:bg-[#222222]' : '',
+        ]"
+      >
         <div
           v-if="!isMenuOpen"
           class="flex items-center justify-between max-w-[1300px] w-full mx-auto py-[45px] px-6 lg:px-0"
@@ -95,9 +101,10 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const isMenuOpen = ref(false)
+const isScrolled = ref(false)
 
 const openMenu = () => {
   isMenuOpen.value = true
@@ -106,7 +113,23 @@ const openMenu = () => {
 const closeMenu = () => {
   isMenuOpen.value = false
 }
+
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 0
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.header-scrolled {
+  background-color: #222222;
+}
+</style>
 <!-- <link href="/dist/output.css" rel="stylesheet" /> -->
